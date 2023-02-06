@@ -1,0 +1,50 @@
+---
+import Layout from "@/layouts/layout.astro";
+import HelloVue from "@/components/hello-vue.vue";
+import HelloReact from "@/components/hello-react";
+import HelloSolid from "@/components/hello-solid";
+import HelloSvelte from "@/components/hello-svelte.svelte";
+---
+
+<Layout title="SoybeanJS">
+  <div class="flex flex-col items-center p-18px">
+    <h1 class="text-center text-48px font-800">
+      Welcome to
+      <span class="text-gradient">SoybeanJS</span>
+    </h1>
+    <p class="instructions my-12px p-16px bg-#fff rd-4px">
+      该网站是用
+      <a href="https://astro.build/" target="_blank" class="text-#3491FA">
+        Astro
+      </a>
+      编写的，支持直接导入使用 React、Vue、Solid和Svelet编写的组件。
+    </p>
+    <div class="link-card-grid">
+      <HelloVue />
+      <HelloReact />
+      <HelloSolid />
+      <HelloSvelte />
+    </div>
+  </div>
+</Layout>
+
+<style>
+  .text-gradient {
+    background-image: var(--accent-gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 400%;
+    background-position: 0%;
+  }
+
+  .instructions {
+    border: 1px solid rgba(var(--accent), 25%);
+  }
+
+  .link-card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(24ch, 1fr));
+    gap: 1rem;
+    padding: 0;
+  }
+</style>
