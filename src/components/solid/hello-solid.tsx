@@ -2,6 +2,7 @@
 
 export default function HelloSolid() {
   const title = 'Solid';
+
   const desc = '一个用于构建用户界面，简单高效、性能卓越的JavaScript库';
 
   return (

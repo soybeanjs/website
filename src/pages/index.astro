@@ -1,9 +1,9 @@
 ---
-import Layout from "@/layouts/layout.astro";
-import HelloVue from "@/components/hello-vue.vue";
-import HelloReact from "@/components/hello-react";
-import HelloSolid from "@/components/hello-solid";
-import HelloSvelte from "@/components/hello-svelte.svelte";
+import Layout from '@/layouts/layout.astro';
+import HelloVue from '@/components/vue/hello-vue.vue';
+import HelloReact from '@/components/react/hello-react';
+import HelloSolid from '@/components/solid/hello-solid';
+import HelloSvelte from '@/components/svelte/hello-svelte.svelte';
 ---
 
 <Layout title="SoybeanJS">
@@ -14,9 +14,7 @@ import HelloSvelte from "@/components/hello-svelte.svelte";
     </h1>
     <p class="instructions my-12px p-16px bg-#fff rd-4px">
       该网站是用
-      <a href="https://astro.build/" target="_blank" class="text-#3491FA">
-        Astro
-      </a>
+      <a href="https://astro.build/" target="_blank" class="text-#3491FA"> Astro</a>
       编写的，支持直接导入使用 React、Vue、Solid和Svelet编写的组件。
     </p>
     <div class="link-card-grid">

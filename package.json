@@ -16,50 +16,46 @@
     "preview": "astro preview",
     "astro": "astro",
     "lint": "eslint . --fix",
-    "tsx": "tsx",
+    "format": "soy prettier-format",
     "commit": "soy git-commit",
     "cleanup": "soy cleanup",
     "update-pkg": "soy update-pkg",
     "update-version": "bumpp package.json packages/*/package.json",
     "publish-pkg": "pnpm -r publish --access public",
     "release": "pnpm update-version && pnpm publish-pkg",
-    "prepare": "pnpm -r run stub"
+    "prepare": "pnpm -r run stub",
+    "tsx": "tsx"
+  },
+  "dependencies": {
+    "@nanostores/react": "^0.4.1",
+    "@nanostores/solid": "^0.3.2",
+    "@nanostores/vue": "^0.7.0",
+    "nanostores": "^0.7.4"
   },
   "devDependencies": {
-    "@astrojs/mdx": "^0.16.0",
-    "@astrojs/react": "^2.0.2",
-    "@astrojs/sitemap": "^1.0.1",
-    "@astrojs/solid-js": "^2.0.2",
-    "@astrojs/svelte": "^2.0.1",
-    "@astrojs/vue": "^2.0.1",
-    "@soybeanjs/cli": "^0.1.6",
-    "@unocss/astro": "^0.49.4",
-    "@unocss/preset-uno": "^0.49.4",
-    "astro": "^2.0.6",
-    "astro-eslint-parser": "^0.11.0",
-    "eslint": "^8.33.0",
-    "eslint-config-soybeanjs": "^0.2.3",
-    "eslint-config-soybeanjs-svelte": "^0.2.3",
-    "eslint-config-soybeanjs-vue": "^0.2.3",
-    "eslint-plugin-astro": "^0.23.0",
-    "lint-staged": "^13.1.0",
-    "prettier-plugin-astro": "^0.8.0",
+    "@astrojs/mdx": "0.16.0",
+    "@astrojs/react": "^2.1.0",
+    "@astrojs/sitemap": "^1.2.0",
+    "@astrojs/solid-js": "^2.1.0",
+    "@astrojs/svelte": "^2.1.0",
+    "@astrojs/vue": "^2.1.0",
+    "@soybeanjs/cli": "^0.1.7",
+    "@unocss/astro": "^0.50.4",
+    "@unocss/preset-uno": "^0.50.4",
+    "astro": "^2.1.2",
+    "eslint": "^8.36.0",
+    "eslint-config-soybeanjs": "^0.3.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "simple-git-hooks": "^2.8.1",
-    "solid-js": "^1.6.10",
-    "svelte": "^3.55.1",
-    "tsx": "^3.12.2",
+    "solid-js": "^1.6.13",
+    "svelte": "^3.56.0",
+    "tsx": "^3.12.3",
     "typescript": "^4.9.5",
     "vue": "^3.2.47"
   },
   "simple-git-hooks": {
     "commit-msg": "pnpm soy git-commit-verify",
-    "pre-commit": "pnpm exec lint-staged --concurrent false"
-  },
-  "lint-staged": {
-    "*": [
-      "eslint . --fix"
-    ]
+    "pre-commit": "pnpm lint"
   }
 }
