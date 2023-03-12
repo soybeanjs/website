@@ -33,7 +33,7 @@
     "nanostores": "^0.7.4"
   },
   "devDependencies": {
-    "@astrojs/mdx": "0.16.0",
+    "@astrojs/mdx": "0.18.0",
     "@astrojs/react": "^2.1.0",
     "@astrojs/sitemap": "^1.2.0",
     "@astrojs/solid-js": "^2.1.0",
@@ -44,13 +44,13 @@
     "@unocss/preset-uno": "^0.50.4",
     "astro": "^2.1.2",
     "eslint": "^8.36.0",
-    "eslint-config-soybeanjs": "^0.3.0",
+    "eslint-config-soybeanjs": "^0.3.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "simple-git-hooks": "^2.8.1",
-    "solid-js": "^1.6.13",
+    "solid-js": "1.6.14",
     "svelte": "^3.56.0",
-    "tsx": "^3.12.3",
+    "tsx": "^3.12.4",
     "typescript": "^4.9.5",
     "vue": "^3.2.47"
   },

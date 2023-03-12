@@ -7,7 +7,7 @@ export default function HelloSolid() {
 
   return (
     <div class="link-card">
-      <a href="https://cn.vuejs.org/" target="_blank">
+      <a href="https://www.solidjs.com/" target="_blank">
         <h2>
           {title}
           <span>&rarr;</span>

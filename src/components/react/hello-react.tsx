@@ -4,7 +4,7 @@ export default function HelloReact() {
 
   return (
     <div className="link-card">
-      <a href="https://cn.vuejs.org/" target="_blank" rel="noreferrer">
+      <a href="https://reactjs.bootcss.com/" target="_blank" rel="noreferrer">
         <h2>
           {title}
           <span>&rarr;</span>

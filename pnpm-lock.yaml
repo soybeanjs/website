@@ -1,7 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@astrojs/mdx': 0.16.0
+  '@astrojs/mdx': 0.18.0
   '@astrojs/react': ^2.1.0
   '@astrojs/sitemap': ^1.2.0
   '@astrojs/solid-js': ^2.1.0
@@ -15,28 +15,28 @@ specifiers:
   '@unocss/preset-uno': ^0.50.4
   astro: ^2.1.2
   eslint: ^8.36.0
-  eslint-config-soybeanjs: ^0.3.0
+  eslint-config-soybeanjs: ^0.3.1
   nanostores: ^0.7.4
   react: ^18.2.0
   react-dom: ^18.2.0
   simple-git-hooks: ^2.8.1
-  solid-js: ^1.6.13
+  solid-js: 1.6.14
   svelte: ^3.56.0
-  tsx: ^3.12.3
+  tsx: ^3.12.4
   typescript: ^4.9.5
   vue: ^3.2.47
 
 dependencies:
   '@nanostores/react': 0.4.1_nkfnbc2tpc77iht7asm3uqwau4
-  '@nanostores/solid': 0.3.2_qmivzxyyn36c5n4nhuswqimyzy
+  '@nanostores/solid': 0.3.2_2r4ui6nsequozbferg7jzlhiay
   '@nanostores/vue': 0.7.0_5k5a5xuqaffd2s4dm6vugcn64i
   nanostores: 0.7.4
 
 devDependencies:
-  '@astrojs/mdx': 0.16.0_astro@2.1.2+rollup@3.14.0
+  '@astrojs/mdx': 0.18.0_astro@2.1.2+rollup@3.14.0
   '@astrojs/react': 2.1.0_fxtgt6bjwd6p4cwoordejim2zi
   '@astrojs/sitemap': 1.2.0
-  '@astrojs/solid-js': 2.1.0_2iagy3qmnqiha2di6lv35hgk7y
+  '@astrojs/solid-js': 2.1.0_73cub6tncaxglvqcjxiapv4z7u
   '@astrojs/svelte': 2.1.0_cwwjeimflajokwv4ietebda644
   '@astrojs/vue': 2.1.0_r5yte4zxnwfan4endhy7farw34
   '@soybeanjs/cli': 0.1.7
@@ -44,13 +44,13 @@ devDependencies:
   '@unocss/preset-uno': 0.50.4
   astro: 2.1.2
   eslint: 8.36.0
-  eslint-config-soybeanjs: 0.3.0_wgbipjhzwmtiz4yqmpbzyvxseq
+  eslint-config-soybeanjs: 0.3.1_wgbipjhzwmtiz4yqmpbzyvxseq
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
   simple-git-hooks: 2.8.1
-  solid-js: 1.6.13
+  solid-js: 1.6.14
   svelte: 3.56.0
-  tsx: 3.12.3
+  tsx: 3.12.4
   typescript: 4.9.5
   vue: 3.2.47
 
@@ -118,8 +118,8 @@ packages:
       - supports-color
     dev: true
 
-  /@astrojs/mdx/0.16.0_astro@2.1.2+rollup@3.14.0:
-    resolution: {integrity: sha512-HNk0FhNNthI7+pLmheJyPVU36dXE5l+9UwmmnrMV6COHNZIO2t+pnWnsushEDYZjpkYITDwnXKnQAtD8Mqj4xw==}
+  /@astrojs/mdx/0.18.0_astro@2.1.2+rollup@3.14.0:
+    resolution: {integrity: sha512-mgICosefMpl67O7ER6Yi6ylT9Hk8ZAO6GhTlx4pYXIMOWFMQlP0NXQ9teZwPhOWzBcHWnsHEF+AzVZWbiC2EBg==}
     engines: {node: '>=16.12.0'}
     dependencies:
       '@astrojs/markdown-remark': 2.1.0_astro@2.1.2
@@ -127,7 +127,7 @@ packages:
       '@mdx-js/mdx': 2.3.0
       '@mdx-js/rollup': 2.3.0_rollup@3.14.0
       acorn: 8.8.2
-      es-module-lexer: 0.10.5
+      es-module-lexer: 1.1.1
       estree-util-visit: 1.2.1
       github-slugger: 1.5.0
       gray-matter: 4.0.3
@@ -178,14 +178,14 @@ packages:
       zod: 3.20.2
     dev: true
 
-  /@astrojs/solid-js/2.1.0_2iagy3qmnqiha2di6lv35hgk7y:
+  /@astrojs/solid-js/2.1.0_73cub6tncaxglvqcjxiapv4z7u:
     resolution: {integrity: sha512-p07DP9NRWJPjtF+CzPZ9lzOMkoyw6wSs3S6g3OZUxR+DVQy3VIXXDqCcnZZVJI34VakkHuViZaoNNkBW/9I54w==}
     engines: {node: '>=16.12.0'}
     peerDependencies:
       solid-js: ^1.4.3
     dependencies:
       babel-preset-solid: 1.6.10_@babel+core@7.20.12
-      solid-js: 1.6.13
+      solid-js: 1.6.14
       vitefu: 0.2.4_vite@4.1.4
     transitivePeerDependencies:
       - '@babel/core'
@@ -960,14 +960,14 @@ packages:
       use-sync-external-store: 1.2.0_react@18.2.0
     dev: false
 
-  /@nanostores/solid/0.3.2_qmivzxyyn36c5n4nhuswqimyzy:
+  /@nanostores/solid/0.3.2_2r4ui6nsequozbferg7jzlhiay:
     resolution: {integrity: sha512-OH4m81Bls8NCH2ANzqEujPvzzzLlunm0e6Vpqy9mMgBYzOcqxWr3SrZgIVA7KhMsjftINwcpMN7/FKo2MQa1aQ==}
     peerDependencies:
       nanostores: ^0.7.0
       solid-js: '>=1.4.0'
     dependencies:
       nanostores: 0.7.4
-      solid-js: 1.6.13
+      solid-js: 1.6.14
     dev: false
 
   /@nanostores/vue/0.7.0_5k5a5xuqaffd2s4dm6vugcn64i:
@@ -2641,10 +2641,6 @@ packages:
       which-typed-array: 1.1.9
     dev: true
 
-  /es-module-lexer/0.10.5:
-    resolution: {integrity: sha512-+7IwY/kiGAacQfY+YBhKMvEmyAJnw5grTUgjG85Pe7vcUI/6b7pZjZG8nQ7+48YhzEAEqrEgD2dCz/JIK+AYvw==}
-    dev: true
-
   /es-module-lexer/1.1.1:
     resolution: {integrity: sha512-n3ruqU8Te7I5prBd6d0darM8ajFuVNhLWvgo04hN7goWSaSrxe7ENOZitac7akN0A2o+8fMomBDsNPvW/eE3CQ==}
     dev: true
@@ -2947,8 +2943,8 @@ packages:
       eslint: 8.36.0
     dev: true
 
-  /eslint-config-soybeanjs/0.3.0_wgbipjhzwmtiz4yqmpbzyvxseq:
-    resolution: {integrity: sha512-k5MSnzlKJ8UNwhMIYc1P23CK2J6E+AIeXlxrVBP2Fu1uZvwRMZNqWsWVhSAzIpLZDZsOaLBAX5ohH9Q5ziRXPQ==}
+  /eslint-config-soybeanjs/0.3.1_wgbipjhzwmtiz4yqmpbzyvxseq:
+    resolution: {integrity: sha512-tkI0Xpatf7n6tu2vn3tXjVvDWxX6tB5AkOvcWka4tg5/PdaFc00dJE6lfAlHBzhJz5zpLAv/B4jtEOroCFY4aA==}
     peerDependencies:
       eslint: '>=7.4.0'
       typescript: '>=4.8.0'
@@ -6700,8 +6696,8 @@ packages:
       smart-buffer: 4.2.0
     dev: true
 
-  /solid-js/1.6.13:
-    resolution: {integrity: sha512-/zcyeect3QnmcD58754IpOU/SzX3s9N19RlRVoKRz3tNpzvel7QKO4FX/PpIFQH6n/pxWq6rSh6b9fwe20XUvw==}
+  /solid-js/1.6.14:
+    resolution: {integrity: sha512-9SSpGWZqzq8n/JhIt2PsYzLreG4PySmAexLnRM386oMeG5oSWa9QIRoiok45rLNJg148USEfI9wlkJkMrA2qGg==}
     dependencies:
       csstype: 3.1.1
 
@@ -7075,8 +7071,8 @@ packages:
       typescript: 4.9.5
     dev: true
 
-  /tsx/3.12.3:
-    resolution: {integrity: sha512-Wc5BFH1xccYTXaQob+lEcimkcb/Pq+0en2s+ruiX0VEIC80nV7/0s7XRahx8NnsoCnpCVUPz8wrqVSPi760LkA==}
+  /tsx/3.12.4:
+    resolution: {integrity: sha512-IZ0Sqm2AwB3pgE+n/g63jLNoZZXinbXfdvNWB06wdwey+/7dlOurdS1Vb5pBGa7VO9nTjAOODbQgKCgHk7JsPA==}
     hasBin: true
     dependencies:
       '@esbuild-kit/cjs-loader': 2.4.2
